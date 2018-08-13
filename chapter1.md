@@ -1,32 +1,32 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
+  title: "негиздерин Intro"
+  description: "This is a template chapter."
 ---
 
-## An exercise title written in sentence case
+## Бул кантип иштейт
 
 ```yaml
-type: NormalExercise
+type: NormalExercise 
 lang: r
-xp: 100
+xp: 100 
 skills: 1
-key: 039d25c5aa
+key: 206ec04c4b   
 ```
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+
+укугу боюнча Сиз редактордо көнүгүүлөрдү чечүүгө R кодун терип керек. сен да: "Жооп тапшыруу 'баскычын тийгенде, кодексинин ар бир сабы чечмеленет жана R менен жол-жоболоштурулат жана коду туура болду бекен же жокпу, бир кабар алуу. Сиздин R кодексин иштеп чыгуу төмөнкү оң бурчунда консолго көрсөтүлгөн.
+
+R сен жана башкалар R коду эмне жөнүндө болуп жатканын түшүнө алат деп, комментарий кошуу үчүн # белгисин колдонууга болот. Эле Twitter сыяктуу! Comments R код катары эмес, ошондуктан алар натыйжага таасир тийгизе албайт. Мисалы, укук боюнча редактору 4 + 3 комментарийленген эсептөө.
+
+Ошондой эле R түз консолго буйруктарды аткарууга болот. Бул сиздин берүүнүн тууралыгы текшерилет эмес, ошондой эле R кодексине, татып жакшы жолу болуп саналат.
+
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
-- Instruction 4
+- укугу боюнча редактору буга чейин кээ бир үлгү коду бар. Сиз саптары чыныгы R коду жана талкуулар болуп саналган кайсы көрө алабы?
+- 6 жана 12 суммасын эсептейт кодексинин бир сапты кошуп, "Жооп тапшыруу" баскычты бас.
 
 `@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
+- Жөн гана берилген кодду, мисалы болуп, 6, 12 суммасын эсептейт R кодексинин бир сапты кошуп!
 
 `@pre_exercise_code`
 
@@ -37,24 +37,20 @@ The instructions that follow should be in bullet point form with clear guidance 
 `@sample_code`
 
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+# Эсептеп 3 + 4
+3 + 4
+
+# Эсептеп 6 + 12
 ```
 
 `@solution`
 
 ```{r}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+# Эсептеп 3 + 4
+3 + 4
+
+# Эсептеп 6 + 12
+6 + 12
 ```
 
 `@sct`
